@@ -49,7 +49,7 @@ __(Join @SafoTheBot For Support)__
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
+🏷️ **Developer: @marvelinns
 """
 
 
@@ -57,13 +57,12 @@ __(Join @SafoTheBot For Support)__
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/SafoTheBot'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/DHKBots'),
+        InlineKeyboardButton('SUPPORT', url='https://t.me/umeshnamo'),
     ],
     [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/AsmSafone/12'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/AsmSafone/RadioPlayerV2'),
-    ],
+        InlineKeyboardButton('MORE BOTS', url='https://t.me/DHKBots'),
+        
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
         
